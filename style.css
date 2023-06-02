@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: antiquewhite;
+    font-family: monospace;
+}
+
+.numInputs {
+    margin: 10px;
+    padding: 10px;
+    border: 3px solid black;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.numInputs h1 {
+    padding: 5px;
+    margin: 10px;
+}
+
+.numInputs input {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 7px;
+    font-size: 15px;
+    text-align: end;
+}
+
+.numInputs button {
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 17px;
+    background-color: black;
+    color: antiquewhite;
+}
+
+.numInputs button:hover {
+    background-color: antiquewhite;
+    color: black;
+    border: 2px solid black;
+}
+
+.numInputs #display {
+    margin: 10px;
+    padding: 7px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.form {
+    margin: 10px;
+    padding: 10px;
+    border: 3px solid black;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.form h1 {
+    padding: 5px;
+    margin: 10px;
+}
+
+.form input {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 7px;
+    font-size: 15px;
+}
+
+.form button {
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 17px;
+    background-color: black;
+    color: antiquewhite;
+}
+
+.form button:hover {
+    background-color: antiquewhite;
+    color: black;
+    border: 2px solid black;
+}
+
+.form .table {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.form table {
+    padding: 10px;
+}
+
+.form table th {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: black;
+    color: antiquewhite;
+    font-size: 20px;
+}
+
+.form table tr, td {
+    padding: 10px;
+    margin: 5px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 15px;
+}

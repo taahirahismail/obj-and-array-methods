@@ -1,14 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Objects and Array Methods</title>
-</head>
-<body>
-    
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Exercise</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="numInputs">
+        <h1>Adding to an Array:</h1>
+        <input type="text" id="input" />
+        <button onclick="addNum()">Add to Array</button>
+        <p id="display"></p>
+        <button onclick="clrArray()">Clear</button>
+      </div>
 
-    <script src="./index.js"></script>
-</body>
+      <div class="form">
+        <h1>Add Names to a Table:</h1>
+        <input type="text" id="name" />
+        <input type="text" id="surname" />
+        <button onclick="addObj()">Submit</button>
+        <!-- <p id="display1"></p> -->
+        <div class="table">
+          <table>
+            <tr>
+              <th>Name</th>
+              <th>Surname</th>
+            </tr>
+            <br />
+            <tbody class="tableInfo"></tbody>
+          </table>
+        </div>
+        <button onclick="clrNames()">Clear</button>
+      </div>
+    </main>
+    <script src="index.js"></script>
+  </body>
 </html>
